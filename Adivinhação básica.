@@ -5,7 +5,7 @@ public class Adivinhacao {
 	public static void main(String[] args) {
 		Random gerador = new Random();
 		int num = gerador.nextInt(7);
-		System.out.println(num);
+		
 		var leitor = new Scanner(System.in);
 		var cont = 0;
 		while (cont < 3){
